@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+body {
+  background-image: url("https://i.pinimg.com/originals/b7/e4/c2/b7e4c2b33cd23d13113788da5d6a86f5.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-color: white;
+  font-family: "Kaushan Script", cursive;
+}
+
+.nav-bar .h1 {
+  font-weight: 200;
+  font-size: 30px;
+}
+
+h1 {
+  color: white;
+  font-size: xx-large;
+}
+
+textarea {
+  border: 3px solid black;
+  border-radius: 4rem;
+  background: transparent;
+  color: white;
+  font-weight: 600;
+  display: block;
+  width: 50%;
+  height: 25vh;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 23px;
+  margin: auto;
+  font-family: "Kaushan Script", cursive;
+}
+
+#output-text {
+  border: 3px solid black;
+  border-radius: 4rem;
+  background: transparent;
+  color: white;
+  font-weight: 600;
+  display: block;
+  width: 50%;
+  height: 25vh;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 23px;
+  margin: auto;
+}
+
+#btn-translate {
+  border-radius: 1rem;
+  display: block;
+  background-color: #371f1f;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  font-size: 1.3rem;
+  margin: 2rem auto;
+  cursor: pointer;
+  font-family: "Kaushan Script", cursive;
+}
+
+.output-message {
+  text-align: left;
+  color: #371f1f;
+  margin: 1rem;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Kaushan Script", cursive;
+}
+.nav-bar {
+  text-align: center;
+}
+
+.container-center {
+  max-width: 800px;
+  margin: auto;
+}
+
+#footer {
+  background-color: #371f1f;
+  color: white;
+  font-weight: 400;
+  margin-top: 2rem;
+  padding: 1rem;
+  font-size: 17px;
+  text-align: center;
+}
+
+.audio {
+  border-radius: 1rem;
+  display: block;
+  background-color: #371f1f;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  font-size: 1.3rem;
+  margin: 2rem auto;
+  cursor: pointer;
+  font-family: "Kaushan Script", cursive;
+}
+
+::placeholder {
+  color: white;
+}
+
